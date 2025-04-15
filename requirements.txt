@@ -1,0 +1,22 @@
+openai
+qdrant-client
+gTTS
+python-dotenv
+requests
+sentence-transformers
+SpeechRecognition
+pyaudio
+faster-whisper
+git+https://github.com/openai/whisper
+langdetect
+sounddevice
+TTS
+webrtcvad #smart listening
+
+#brew install portaudio
+#pip install pyaudio
+#pip install --global-option='build_ext' --global-option='-I/opt/homebrew/include' --global-option='-L/opt/homebrew/lib' pyaudio
+
+
+#brew install ffmpeg
+#brew install python 3.10 -> make venv with python3.10 to support TTS
