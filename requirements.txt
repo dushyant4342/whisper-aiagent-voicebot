@@ -1,3 +1,4 @@
+dotenv
 openai
 qdrant-client
 gTTS
@@ -10,9 +11,12 @@ faster-whisper
 git+https://github.com/openai/whisper
 langdetect
 sounddevice
+requests
 TTS
-webrtcvad #smart listening
-
+sentence_transformers
+webrtcvad  #smart listening
+qdrant-client
+streamlit
 #brew install portaudio
 #pip install pyaudio
 #pip install --global-option='build_ext' --global-option='-I/opt/homebrew/include' --global-option='-L/opt/homebrew/lib' pyaudio
